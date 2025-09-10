@@ -1,0 +1,85 @@
+/* =====================================
+   ENLACE "SALTAR AL CONTENIDO PRINCIPAL"
+===================================== */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    z-index: 1000;
+    text-decoration: none;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* =====================================
+   COMENTAR ESTILO EXISTENTE DE li
+===================================== */
+/* li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* =====================================
+   NAVBAR
+===================================== */
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+/* Solo la imagen dentro de nav */
+nav img {
+    width: 10%;
+}
+
+/* =====================================
+   GRID
+===================================== */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+}
+
+/* Solo imágenes dentro de grid */
+.grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* =====================================
+   FLEX
+===================================== */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* =====================================
+   ESTILOS GENERALES (opcional)
+===================================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
