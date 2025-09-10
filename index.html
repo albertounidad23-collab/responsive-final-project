@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Enlace para accesibilidad -->
-    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+  <!-- Enlace para saltar al contenido principal -->
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
 
-    <!-- Encabezado / navegación -->
-    <header>
-        <nav>
-            <img src="imagenes/logo.png" alt="Logo del sitio">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="parks.html">Parques</a></li>
-                <li><a href="about.html">Acerca de</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="Logo del sitio">
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="parks.html">Parques</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Contenido principal con ID para skip-link -->
-    <main id="contenido-principal">
-        <h1>Bienvenido</h1>
-        <p>Este es el contenido principal de tu página de inicio.</p>
+  <main id="contenido-principal">
+    <section class="grid">
+      <h2>Contenido Principal</h2>
 
-        <section class="grid">
-  <h2>Contenido principal</h2>
-            <article>
-                <h2>Sección 1</h2>
-                <img src="imagenes/ejemplo1.jpg" alt="Imagen de ejemplo 1">
-                <p>Descripción de la sección 1.</p>
-            </article>
-            <article>
-                <h2>Sección 2</h2>
-                <img src="imagenes/ejemplo2.jpg" alt="Imagen de ejemplo 2">
-                <p>Descripción de la sección 2.</p>
-            </article>
-        </section>
+      <article>
+        <img src="images/feature1.jpg" alt="Imagen Destacada 1">
+        <p>Bienvenido a nuestro sitio. Explora nuestras secciones y descubre parques, actividades y más.</p>
+      </article>
 
-        <section class="flex">
-            <div>
-                <h3>Bloque 1</h3>
-                <p>Texto dentro del bloque 1.</p>
-            </div>
-            <div>
-                <h3>Bloque 2</h3>
-                <p>Texto dentro del bloque 2.</p>
-            </div>
-            <div>
-                <h3>Bloque 3</h3>
-                <p>Texto dentro del bloque 3.</p>
-            </div>
-        </section>
-    </main>
+      <article>
+        <img src="images/feature2.jpg" alt="Imagen Destacada 2">
+        <p>Encuentra información sobre eventos y lugares para compartir con tu familia y amigos.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio de Parques</p>
+  </footer>
+
+</body>
+</html>
 
     <footer>
         <p>© 2025 Mi Sitio Web</p>
