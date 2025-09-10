@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parques</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parques</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+  <!-- Enlace para saltar al contenido principal -->
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
 
-    <header>
-        <nav>
-            <img src="imagenes/logo.png" alt="Logo del sitio">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="parks.html">Parques</a></li>
-                <li><a href="about.html">Acerca de</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="Logo del sitio">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="parks.html" class="active">Parques</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main id="contenido-principal">
-        <h1>Parques</h1>
-        <p>Explora los parques más importantes de la región.</p>
+  <main id="contenido-principal">
+    <section class="grid">
+      <h2>Parques Disponibles</h2>
 
-        <section class="grid">
-  <h2>Contenido principal</h2>
-            <article>
-                <h2>Parque 1</h2>
-                <img src="imagenes/parque1.jpg" alt="Imagen del parque 1">
-                <p>Descripción del parque 1.</p>
-            </article>
-            <article>
-                <h2>Parque 2</h2>
-                <img src="imagenes/parque2.jpg" alt="Imagen del parque 2">
-                <p>Descripción del parque 2.</p>
-            </article>
-        </section>
-    </main>
+      <article>
+        <img src="images/park1.jpg" alt="Parque Central">
+        <p>El Parque Central es ideal para caminatas y actividades familiares.</p>
+      </article>
 
-    <footer>
-        <p>© 2025 Mi Sitio Web</p>
-    </footer>
+      <article>
+        <img src="images/park2.jpg" alt="Parque Natural">
+        <p>El Parque Natural ofrece senderos ecológicos y zonas de camping.</p>
+      </article>
+
+      <article>
+        <img src="images/park3.jpg" alt="Parque Urbano">
+        <p>Perfecto para deportes al aire libre y eventos comunitarios.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio de Parques</p>
+  </footer>
 
 </body>
 </html>
